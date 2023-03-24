@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 import uvicorn
-import torch
+#import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
 app = FastAPI()
